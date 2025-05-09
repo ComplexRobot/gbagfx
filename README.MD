@@ -54,7 +54,7 @@ Options (PNG to GBA):
 
 Options (JASC Palette to GBA Palette):
 ```
--num_colors   Set number of colors
+-num_colors <value>   Set number of colors
 ```
 
 ### Compress/Decompress
