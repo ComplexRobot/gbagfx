@@ -100,6 +100,7 @@
     <ClInclude Include="options.h" />
     <ClInclude Include="rl.h" />
     <ClInclude Include="util.h" />
+    <ClInclude Include="pnglibconf.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="libpng">

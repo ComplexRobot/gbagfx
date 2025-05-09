@@ -17,12 +17,14 @@ struct Palette {
 	int numColors;
 };
 
+#pragma pack(push, 1)
 struct NonAffineTile {
     unsigned short index:10;
     unsigned short hflip:1;
     unsigned short vflip:1;
     unsigned short palno:4;
-} __attribute__((packed));
+};
+#pragma pack(pop)
 
 struct Tilemap {
     union {

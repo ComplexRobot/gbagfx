@@ -224,7 +224,7 @@ static void DecodeAffineTilemap(unsigned char *input, unsigned char *output, uns
     }
 }
 
-#define REVERSE_BIT_ORDER(x) ({ \
+#define REVERSE_BIT_ORDER(x) ( \
       ((((x) >> 7) & 1) << 0)   \
     | ((((x) >> 6) & 1) << 1)   \
     | ((((x) >> 5) & 1) << 2)   \
@@ -232,22 +232,22 @@ static void DecodeAffineTilemap(unsigned char *input, unsigned char *output, uns
     | ((((x) >> 3) & 1) << 4)   \
     | ((((x) >> 2) & 1) << 5)   \
     | ((((x) >> 1) & 1) << 6)   \
-    | ((((x) >> 0) & 1) << 7);  \
-})
+    | ((((x) >> 0) & 1) << 7)  \
+)
 
-#define SWAP_BYTES(a, b) ({   \
+#define SWAP_BYTES(a, b) {   \
     unsigned char tmp = *(a); \
     *(a) = *(b);              \
     *(b) = tmp;               \
-})
+}
 
-#define NSWAP(x) ({ (((x) >> 4) & 0xF) | (((x) << 4) & 0xF0); })
+#define NSWAP(x) ( (((x) >> 4) & 0xF) | (((x) << 4) & 0xF0) )
 
-#define SWAP_NYBBLES(a, b) ({        \
+#define SWAP_NYBBLES(a, b) {        \
     unsigned char tmp = NSWAP(*(a)); \
     *(a) = NSWAP(*(b));              \
     *(b) = tmp;                      \
-})
+}
 
 static void VflipTile(unsigned char * tile, int bitDepth)
 {
