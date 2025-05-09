@@ -14,7 +14,7 @@ The operation performed is determined by the extensions of the files specified i
 
 ### GBA to/from PNG
 
-`*.1bpp`, `*.4bpp`, `*.8bpp` ⟷ `*.png`
+`*.1bpp` `*.4bpp` `*.8bpp` ⟷ `*.png`
 
 Options (GBA to PNG):
 ```
@@ -42,11 +42,11 @@ Options (PNG to GBA):
 
 ### PNG to/from FONT
 
-`*.png` ⟷ `*.latfont`, `*.hwjpnfont`, `*.fwjpnfont`
+`*.png` ⟷ `*.latfont` `*.hwjpnfont` `*.fwjpnfont`
 
 ### PNG to Palette
 
-`*.png` ⟶ `*.gbapal`, `*.pal`
+`*.png` ⟶ `*.gbapal` `*.pal`
 
 ### GBA Palette to/from JASC Palette
 
@@ -59,7 +59,7 @@ Options (JASC Palette to GBA Palette):
 
 ### Compress/Decompress
 
-`*.*` ⟷ `*.huff`, `*.lz`, `*.rl`
+`*.*` ⟷ `*.huff` `*.lz` `*.rl`
 
 Options (to `*.lz`):
 ```
