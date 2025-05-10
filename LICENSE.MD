@@ -1,11 +1,15 @@
-SPDX-License-Identifier: MIT AND AGPL-3.0-or-later
+<!-- SPDX-License-Identifier: MIT AND AGPL-3.0-or-later -->
 
 Copyright (c) 2015 YamaArashi
 Copyright (c) 2025 ComplexRobot
 
+This file is licensed under both the MIT License and the
+GNU Affero General Public License v3.0 or any later version.
+You must comply with all terms of both licenses when using,
+copying, modifying, or redistributing this code.
 
---------------------------------------------------------------------------------
-MIT License
+
+# MIT License
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -26,8 +30,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
---------------------------------------------------------------------------------
-                    GNU AFFERO GENERAL PUBLIC LICENSE
+#                     GNU AFFERO GENERAL PUBLIC LICENSE
                        Version 3, 19 November 2007
 
  Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
