@@ -1,7 +1,6 @@
 <!-- SPDX-License-Identifier: MIT AND AGPL-3.0-or-later -->
 
-Copyright (c) 2015 YamaArashi
-
+Copyright (c) 2015 YamaArashi  
 Copyright (c) 2025 ComplexRobot
 
 This file is licensed under both the MIT License and the
